@@ -1,0 +1,44 @@
+/* Container chung */
+.container3 {
+  display: flex;
+  width: 100%;
+  background-color: #303030;
+  box-sizing: border-box;
+  margin-top: 30px;
+  color: #666;
+}
+
+/* Phần bên trái (65%) */
+.left-section {
+  width: 35%;
+  margin-left: 90px;
+}
+
+/* Phần bên phải (35%) */
+.right-section {
+  width: 65%;
+  padding: 30px; /* Nội dung lùi vào 30px */
+  display: flex;
+  flex-wrap: wrap; /* Cho phép xuống dòng khi hết chiều rộng */
+  gap: 10px; /* Khoảng cách giữa các box */
+  align-items: flex-start;
+}
+
+/* Các ô chữ */
+.box {
+  padding: 10px 15px;
+  text-align: center;
+  background-color: #303030;
+  color: #555;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+  border: 1px solid;
+  border-color: #555; /* Chỉ thay đổi màu viền */
+}
+
+.box:hover {
+  background-color: #555;
+  color: #303030;
+}
